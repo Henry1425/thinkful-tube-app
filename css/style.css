@@ -27,7 +27,50 @@ General styles (General Module, wrapping around the modules bellow)
 (the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
 */
 
-body {}
+html {
+    background: rgba(0, 0, 0, 0) url("../images/astronaut.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    text-align: center;
+    font-family: 'Revalia', sans-serif;
+}
+
+h1 {
+    color: crimson;
+    font-size: 238%;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#query {
+    font-family: 'Revalia', sans-serif;
+    color: crimson;
+    margin-bottom: 2rem;
+    border: solid 4px #c9c9c9;
+    width: 20%;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.myButton {
+    background-color: dimgrey;
+    border-radius: 5px;
+    padding: .5%;
+    box-shadow: 0 3px White;
+    border: none;
+    font-family: 'Revalia', sans-serif;
+    margin-bottom: 2rem;
+}
+
+#search-results p {
+    color: white;
+    margin-bottom: 2rem;
+}
 
 
 /* -------------------------------------
